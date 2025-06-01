@@ -111,12 +111,12 @@ const Contact = () => {
               
               <div className="info-item">
                 <h4>Email</h4>
-                <a href="mailto:contact@samrat.dev">contact@samrat.dev</a>
+                <a href="mailto:palray.sam@gmail.com">palray.sam@gmail.com</a>
               </div>
               
               <div className="info-item">
                 <h4>Phone</h4>
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                <a href="tel:+917488350566">+91 (748) 335-0566</a>
               </div>
               
               <div className="info-item">

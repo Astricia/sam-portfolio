@@ -39,7 +39,7 @@ const Home = () => {
               className="hero-image"
             >
               <div className="image-wrapper">
-                <img src="/assets/images/hero-image.png" alt="Samrat" />
+                <img src="/assets/images/laptop-removebg-preview.png" alt="Samrat" />
               </div>
             </motion.div>
           </div>

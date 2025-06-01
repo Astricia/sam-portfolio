@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -15,12 +15,12 @@ const Footer = () => {
             whileHover={{ scale: 1.05 }}
             className="logo"
           >
-            SAMRAT
+            SAMRAT PAL RAY
           </motion.div>
           
           <div className="social-links">
             <motion.a 
-              href="https://github.com" 
+              href="https://github.com/Astricia" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, y: -5 }}
@@ -28,26 +28,19 @@ const Footer = () => {
               <FaGithub size={24} />
             </motion.a>
             <motion.a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/samrat-pal-ray-166232293/" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, y: -5 }}
             >
               <FaLinkedin size={24} />
             </motion.a>
-            <motion.a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, y: -5 }}
-            >
-              <FaTwitter size={24} />
-            </motion.a>
+            
           </div>
         </div>
         
         <div className="copyright">
-          © {new Date().getFullYear()} SAMRAT. All rights reserved.
+          © {new Date().getFullYear()} SAMRAT-RAY. All rights reserved.
         </div>
       </div>
     </motion.footer>
@@ -55,3 +48,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

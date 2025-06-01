@@ -22,10 +22,6 @@ const ProjectCard = ({ project }) => {
             <span key={index}>{tag}</span>
           ))}
         </div>
-        <div className="project-links">
-          <a href={project.demo} target="_blank" rel="noopener noreferrer">Live Demo</a>
-          <a href={project.code} target="_blank" rel="noopener noreferrer">View Code</a>
-        </div>
       </div>
     </motion.div>
   );
