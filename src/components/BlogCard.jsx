@@ -17,7 +17,7 @@ const BlogCard = ({ blog }) => {
         <div className="blog-date">{blog.date}</div>
         <h3>{blog.title}</h3>
         <p className="excerpt">{blog.excerpt}</p>
-        <a href={`/blog/${blog.id}`} className="read-more">Read More</a>
+        <a href={"https://uhv-nine.vercel.app/"} className="read-more">Read More</a>
       </div>
     </motion.div>
   );
